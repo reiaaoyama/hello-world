@@ -50,9 +50,9 @@ The procedure is as follow:
   nasm helloboot.nasm -f bin -o helloboot.bin
   dd if=/dev/zero of=zero.bin bs=512 count=1439
   cat helloboot.bin zero.bin > helloboot.flp
-``
+```
 The you can either write the helloboot.flp to a 3.5" drive or mount to a 
 VM as a boot disk and see a hello print out on the screen.
 
-``Note:`` Don't leave this running too long cuz I made an infinite
+Note: Don't leave this running too long cuz I made an infinite
 loop at the end. It is weasting energy, I know.
