@@ -56,3 +56,14 @@ VM as a boot disk and see a hello print out on the screen.
 
 Note: Don't leave this running too long cuz I made an infinite
 loop at the end. It is weasting energy, I know.
+
+# HelloWorld.java
+"HelloWorld.java" is a java version. To run it, you need to 
+compile the source with "javac" or Java compiler. The output
+of the Java compiler will be "HelloWorld.class".
+Then run Java virtual machine "java" with the class name. 
+For example:
+```
+  javac HelloWorld.java
+  java HelloWorld
+```
